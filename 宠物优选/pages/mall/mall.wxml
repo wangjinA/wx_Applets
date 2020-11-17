@@ -1,0 +1,32 @@
+<view>
+  <swiper indicator-dots="{{indicatorDots}}"
+    indicator-color=""
+    indicator-active-color="#ec4759"
+    circular="true"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}" wx:key="index">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" mode='aspectFill'/>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="nav">
+    <navigator url="../mallList/mallList?{{item.query}}" wx:for="{{navList}}" wx:key="{{index}}">
+      <view class="yuan">
+        <text class="iconfont {{item.icon}}"></text>
+      </view>
+      <view class="name">{{item.name}}</view>
+    </navigator>
+  </view>
+  <view wx:for="{{mallTitle}}" wx:key="{{index}}">
+    <view class="section-title">
+      <text>{{item.name}}</text>
+      <navigator url="../mallList/mallList?{{item.query}}" class="section-more">
+        <text>更多</text><text class="iconfont icon-iconfontjiantou5"></text>
+      </navigator>
+    </view>
+    <view class="flex-wrap">
+      <shop wx:for="{{mallList[index]}}" wx:for-index="i" wx:key="{{i}}" wx:for-item="shop" item="{{shop}}"></shop>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,67 @@
+<view>
+  <swiper indicator-dots="{{indicatorDots}}"
+    indicator-color=""
+    indicator-active-color="#ec4759"
+    circular="true"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}" wx:key="index">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" mode='aspectFill'/>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="pet-info">
+    <view class="pet-title">
+      <view class="name bold">哈皮狗</view>
+      <view class="sex">
+        <text class="g">公</text>
+        <text class="m">母</text>
+      </view>
+      <view class="price priceColor">¥1500</view>
+    </view>
+    <view class="section">
+      <view class="sectionName">生日：</view>
+      <view class="sectionValue">2019-07-20</view>
+    </view>
+    <view class="section">
+      <view class="sectionName">发布：</view>
+      <view class="sectionValue">4小时前</view>
+    </view>
+    <view class="section">
+      <view class="sectionName">绝育：</view>
+      <view class="sectionValue">否</view>
+    </view>
+    <view class="section">
+      <view class="sectionName">疫苗：</view>
+      <view class="sectionValue">
+        <view v-for="i in 3" :key="i" style="white-space:pre;">
+          <text>第1次    </text>       
+          <text>2019-07-10    </text>
+          <text>卫佳5</text>
+        </view>
+      </view>
+    </view>
+    <view class="section">
+      <view class="sectionName">描述：</view>
+      <view class="sectionValue">自家繁殖 包纯种 包纯种 包纯种！安全健康 价格美丽 平台作保 如果买到的不是纯种无条件退换！</view>
+    </view>
+  </view>
+  <view class="section-title">精品宠物</view>
+  <view class="pet">
+    <pet wx:for="{{10}}" url="../petDetail/petDetail" wx:key="{{index}}"></pet>
+  </view>
+  <view class="pt-footer top-line">
+    <view class="ul">
+      <view class="li">
+        <view class="p">客服</view>
+      </view>
+      <view class="li">
+        <view class="p">收藏</view>
+      </view>
+      <view class="li">
+        <view class="p">分享</view>
+      </view>
+    </view>
+    <navigator url="/" class="submit">立即购买</navigator>
+  </view>
+</view>

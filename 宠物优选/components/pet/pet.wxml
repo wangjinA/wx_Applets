@@ -1,0 +1,15 @@
+<view>
+  <navigator url="{{url}}" hover-class="navigator-hover" class="petList">
+    <image src="../../image/gl2.png" />
+    <view class="info-wrap">
+      <view class="name">秋田犬</view>
+      <view class="price-add">
+        <view class="price priceColor">¥1300</view>
+        <view class="add">
+          <text class="iconfont iconfont icon-dingwei"></text>
+          <text>青山湖区</text>
+        </view>
+      </view>
+    </view>
+  </navigator>
+</view>

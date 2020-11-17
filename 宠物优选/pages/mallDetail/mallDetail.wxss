@@ -1,0 +1,37 @@
+.shopImg {
+  width: 100%;
+  height: 600rpx;
+  object-fit: cover;
+}
+.shop-info {
+  padding: 0 20rpx;
+}
+.shop-info .shop-name {
+  margin-bottom: 20rpx;
+}
+.shop-info .no-price {
+  display: flex;
+  align-items: baseline;
+}
+.shop-info .no-price .price {
+  margin-right: 16rpx;
+}
+.shop-info .no-price .old-price {
+  color: #989898;
+  font-size: 24rpx;
+  text-decoration: line-through;
+}
+.shop-info .section {
+  display: flex;
+  align-items: baseline;
+  margin-top: 20rpx;
+}
+.shop-info .section .sectionName {
+  font-size: 28rpx;
+  color: #898999;
+  margin-right: 10rpx;
+  flex-shrink: 0;
+}
+.shop-info .section .sectionValue {
+  font-size: 28rpx;
+}

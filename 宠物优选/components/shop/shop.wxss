@@ -1,0 +1,31 @@
+.mall-item {
+  margin-left: 2vw;
+  margin-bottom: 2vw;
+  width: 47vw;
+}
+.mall-item image {
+  width: 47vw;
+  height: 47vw;
+  object-fit: cover;
+}
+.mall-item .tips {
+  font-size: 26rpx;
+  color: #989898;
+  margin: 4rpx 0;
+}
+.mall-item .price {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.mall-item .price .new-price {
+  font-size: 28rpx;
+}
+.mall-item .price .old-price {
+  color: #989898;
+  font-size: 24rpx;
+  text-decoration: line-through;
+}
+.mall-info .mall-name{
+  font-size: 32rpx;
+}

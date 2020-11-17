@@ -1,0 +1,11 @@
+<navigator url="{{item.link}}" class="mall-item">
+  <image src="{{item.url}}" />
+  <view class="mall-info">
+    <view class="mall-name">{{item.name}}</view>
+    <view class='tips'>{{item.tips}}</view>
+    <view class="price">
+      <view class="new-price priceColor">{{item.newPrice}}</view>
+      <view class="old-price">{{item.oldPrice}}</view>
+    </view>
+  </view>
+</navigator>

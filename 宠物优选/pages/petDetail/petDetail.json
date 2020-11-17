@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "pet": "../../components/pet/pet"
+  }
+}

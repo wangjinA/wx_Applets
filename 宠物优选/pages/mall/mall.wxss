@@ -1,0 +1,49 @@
+.nav {
+  display: flex;
+  padding: 30rpx 14rpx;
+  border-top: 10rpx solid #f5f5f5;
+  border-bottom: 10rpx solid #f5f5f5;
+}
+.nav navigator {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 13rpx;
+  color: #666;
+}
+.nav navigator .yuan {
+  height: 80rpx;
+  width: 80rpx;
+  border-radius: 50%;
+  background-color: #f00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12rpx;
+}
+.nav navigator .name{
+  font-size: 28rpx;
+  color: #666;
+}
+.nav navigator .yuan .iconfont {
+  color: #fff;
+  font-size: 36rpx;
+}
+.nav navigator:nth-of-type(1) .yuan {
+  background-color: #4ad1cd;
+}
+.nav navigator:nth-of-type(2) .yuan {
+  background-color: #ff9393;
+}
+.nav navigator:nth-of-type(3) .yuan {
+  background-color: #ff75a0;
+}
+.nav navigator:nth-of-type(4) .yuan {
+  background-color: #ff9f60;
+}
+.nav navigator:nth-of-type(3) .yuan .iconfont,
+.nav navigator:nth-of-type(4) .yuan .iconfont {
+  font-size: 40rpx;
+}

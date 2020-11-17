@@ -1,0 +1,21 @@
+<view class="head-wrap">
+  <image class="head" src="../../image/banner5.png" />
+  <view class="sell-info">
+    <view class="name bold">名猫名宠专卖店</view>
+    <view class="star">
+      <text class="iconfont icon-xingxing1" wx:for="{{5}}" wx:key="{{index}}"></text>
+    </view>
+    <view class="address">江西南昌青山湖区</view>
+  </view>
+</view>
+<view class="num-wrap">
+  <view class="num-total">
+    宠物： <text class="priceColor">80</text>只
+  </view>
+  <view class="num-out">
+    总售出： <text class="priceColor">168</text>只
+  </view>
+</view>
+<view class="flex-wrap">
+  <pet wx:for="{{10}}" wx:key="{{index}}" url="../petDetail/petDetail"></pet>
+</view>

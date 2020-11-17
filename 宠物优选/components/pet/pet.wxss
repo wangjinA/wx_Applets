@@ -1,0 +1,29 @@
+.petList {
+  margin-left: 4.6vw;
+  margin-bottom: 3vw;
+}
+.petList image {
+  width: 43vw;
+  height: 34vw;
+  border-radius: 8rpx;
+  object-fit: cover;
+}
+.petList .info-wrap {
+  padding: 0 5rpx;
+}
+.petList .info-wrap .name {
+  font-size: 32rpx;
+  margin-bottom: 10rpx;
+}
+.petList .info-wrap .price-add {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 26rpx;
+}
+.petList .info-wrap .price-add .add text{
+  color: #999;
+}
+.petList .info-wrap .price-add .add .iconfont {
+  font-size: 22rpx;
+}

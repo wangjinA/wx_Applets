@@ -1,0 +1,14 @@
+<view>
+  <navigator url="../sellDetail/sellDetail" class="sell-item" wx:for="{{10}}" wx:key="{{index}}">
+    <image src="../../image/banner4.png" />
+    <view class="info-wrap">
+      <view class="name">名猫名犬专营，优惠大礼相送，欢迎进店选购。</view>
+      <view class="add-num">
+        <view class="add">
+          <text>青山湖区</text>
+        </view>
+        <view class="num">已售35只</view>
+      </view>
+    </view>
+  </navigator>
+</view>

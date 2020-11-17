@@ -1,0 +1,105 @@
+swiper{
+  height: 330rpx; 
+}
+swiper-item image{
+  width: 100%;
+}
+.pet{
+  display: flex;
+  flex-wrap: wrap;
+}
+.pt-footer {
+  position: fixed !important;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex !important;
+  height: 100rpx;
+  background: #fff;
+  padding-right: 30rpx;
+}
+.pt-footer .ul {
+  flex: 1;
+  height: 100rpx;
+  display: flex;
+}
+.pt-footer .ul .li {
+  display: flex;
+  flex: 1;
+  height: 100%;
+  flex-direction: column;
+  color: #666;
+  font-size: 26rpx;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+.pt-footer .ul .li .p {
+  margin-top: auto;
+  margin-bottom: 10rpx;
+}
+.pt-footer .submit {
+  width: 35vw;
+  height: 64rpx;
+  line-height: 64rpx;
+  text-align: center;
+  color: #fff !important;
+  font-size: 28rpx;
+  background: linear-gradient(90deg, #f8ab3b 0%, #f8903b 100%);
+  border-radius: 60rpx;
+  margin: auto;
+}
+.pet-info {
+  padding: 0 20rpx;
+  margin-bottom: 40rpx;
+}
+.pet-info .pet-title {
+  display: flex;
+  align-items: center;
+  height: 75rpx;
+}
+.pet-info .pet-title .name {
+  font-size: 32rpx;
+  margin-right: 20rpx;
+}
+.pet-info .pet-title .price {
+  margin-left: auto;
+}
+.pet-info .pet-title .sex {
+  font-size: 28rpx;
+}
+.pet-info .pet-title .sex text {
+  color: #fff;
+  border-radius: 50%;
+  width: 32rpx;
+  height: 32rpx;
+  line-height: 32rpx;
+  text-align: center;
+  display: inline-block;
+  font-size: 24rpx;
+}
+.pet-info .pet-title .sex .g {
+  background: #0091ff;
+  margin-right: 10rpx
+}
+.pet-info .pet-title .sex .m {
+  background: #ff4d94;
+}
+.pet-info .section {
+  display: flex;
+  align-items: baseline;
+  font-size: 28rpx;
+  margin-top: 20rpx;
+}
+.pet-info .section .sectionName {
+  color: #898999;
+  margin-right: 10rpx;
+  flex-shrink: 0;
+}
+.swiper-wrap .swiper-pagination-bullet-active {
+  background: #ec4759;
+}
+.swiper-slide img {
+  height: 52vw;
+  width: 100vw;
+  object-fit: cover;
+}

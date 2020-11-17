@@ -1,0 +1,31 @@
+.head-wrap {
+  display: flex;
+  align-items: center;
+  height: 130rpx;
+  padding: 20rpx 26rpx;
+}
+.head-wrap .head {
+  height: 120rpx;
+  width: 120rpx;
+  border-radius: 50%;
+  margin-right: 16rpx;
+}
+.head-wrap .sell-info .address {
+  font-size: 28rpx;
+  color: #898999;
+}
+.head-wrap .sell-info .icon-xingxing1 {
+  color: #fccf0a;
+  margin-right: 4rpx;
+}
+.num-wrap {
+  display: flex;
+  padding: 26rpx;
+  justify-content: space-between;
+}
+.num-wrap > view {
+  font-size: 28rpx;
+  color: #898999;
+}
+.num-wrap > view {
+}

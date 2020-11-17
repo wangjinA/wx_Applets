@@ -1,0 +1,40 @@
+<image src="../../image/gl4.png" class="shopImg" />
+<view class="shop-info">
+  <view class="shop-name bold">皇家 中型犬幼犬粮4KG MEJ32</view>
+  <view class="no-price">
+    <view class="price priceColor">¥88</view>
+    <view class="old-price">¥88</view>
+  </view>
+  <view class=".section">
+    <view class="sectionName">阶段：</view>
+    <view class="sectionValue">中型犬幼犬</view>
+  </view>
+  <view class=".section">
+    <view class="sectionName">适宜：</view>
+    <view class="sectionValue">吉娃娃 巴哥犬 科技 金毛 拉不拉多</view>
+  </view>
+  <view class=".section">
+    <view class="sectionName">毛重：</view>
+    <view class="sectionValue">4KG</view>
+  </view>
+  <view class=".section">
+    <view class="sectionName">口味：</view>
+    <view class="sectionValue">鱼肉味</view>
+  </view>
+  <view class=".section">
+    <view class="sectionName">期限：</view>
+    <view class="sectionValue">18个月</view>
+  </view>
+  <view class=".section">
+    <view class="sectionName">优惠：</view>
+    <view class="sectionValue">无</view>
+  </view>
+  <view class=".section">
+    <view class="sectionName">配送：</view>
+    <view class="sectionValue">全国包邮</view>
+  </view>
+  <view class=".section">
+    <view class="sectionName">品牌：</view>
+    <view class="sectionValue">法国皇家</view>
+  </view>
+</view>

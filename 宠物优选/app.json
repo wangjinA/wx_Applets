@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/petDetail/petDetail",
+    "pages/mall/mall",
+    "pages/sell/sell",
+    "pages/user/user",
+    "pages/mallDetail/mallDetail",
+    "pages/mallList/mallList",
+    "pages/sellDetail/sellDetail"
+  ],
+  "tabBar": {
+      "selectedColor": "#ec4759",
+      "color": "#8a9095",
+      "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./image/home.png",
+        "selectedIconPath": "./image/home1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/sell/sell",
+        "iconPath": "./image/sell.png",
+        "selectedIconPath": "./image/sell1.png",
+        "text": "商家"
+      },
+      {
+        "pagePath": "pages/mall/mall",
+        "iconPath": "./image/mall.png",
+        "selectedIconPath": "./image/mall1.png",
+        "text": "商城"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "./image/user.png",
+        "selectedIconPath": "./image/user1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
