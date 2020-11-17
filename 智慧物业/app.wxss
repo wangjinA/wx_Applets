@@ -1,0 +1,83 @@
+@import './iconfont/iconfont.wxss';
+.bold{
+  font-family: "PT Serif","Droid Serif","Times New Roman",arial,sans-serif;
+  font-weight: 700;
+}
+
+.flex-wrap{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/* 标题样式 */
+.section-title {
+  padding-left: 4.6vw;
+	position: relative;
+	margin: 20rpx 0;
+	display: flex;
+	align-items: baseline;
+  font-size: 32rpx;
+}
+.section-title::after {
+  content: '';
+  width: 7rpx;
+  position: absolute;
+  height: 100%;
+  background-color: #61A5FF;
+  left: 2.5vw;
+}
+.section-title .section-more{
+  margin-left: auto;
+  margin-right: 20rpx;
+  display: flex;
+  align-items: baseline;
+  padding-left: 30rpx;
+}
+.section-title .section-more text{
+  color: #999;
+  font-size: 24rpx;
+}
+
+/* 1像素线条 */
+.bottom-line,
+.top-line{
+	position: relative;
+}
+.top-line:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	border-top: 1px solid #e1e1e1;
+	color: #e1e1e1;
+	transform: scaleY(.5);
+	transform-origin: 0 0;
+	pointer-events: none;
+}
+.bottom-line:before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-bottom: 1px solid #e1e1e1;
+	color: #e1e1e1;
+	transform: scaleY(.5);
+	transform-origin: 0 0;
+	pointer-events: none;
+}
+
+.text-overflow{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+.textOne-overflow{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}

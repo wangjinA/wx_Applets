@@ -1,0 +1,4 @@
+<navigator url="" class="bottom-line payNotice" wx:for="{{list}}" wx:key="{{index}}">
+  <view class="title">{{item.title}}</view>
+  <view class="content">{{item.content}}</view>
+</navigator>

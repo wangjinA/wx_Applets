@@ -1,0 +1,28 @@
+@import "../../app.wxss";
+.article {
+  padding: 30rpx;
+  padding-right: 20rpx;
+  display: flex;
+}
+
+.article image {
+  height: 160rpx;
+  flex: 0 0 240rpx;
+  margin-right: 20rpx;
+}
+.article .article-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.article .tag {
+  border: 1rpx solid #61A5FF;
+  width: max-content;
+  height: 40rpx;
+  line-height: 40rpx;
+  padding: 0 14rpx;
+  margin-top: auto;
+  margin-right: 10rpx;
+  color: #61A5FF;
+  font-size: 24rpx;
+}

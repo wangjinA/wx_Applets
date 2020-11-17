@@ -1,0 +1,33 @@
+<view class="section bottom-line">
+  <view class="text">报修分类</view>
+  <picker class="section-value" bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <text wx:if="{{index}}">{{array[index]}}</text>
+    <text wx:else class="select">请选择</text>
+    <text class="iconfont iconiconfontjiantou5"></text>
+  </picker>
+</view>
+
+<view class="section bottom-line">
+  <view class="text">联系方式</view>
+  <input placeholder="请输入手机号码" />
+</view>
+<view class="section bottom-line">
+  <view class="text">选择地址</view>
+  <picker class="section-value" bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <text wx:if="{{index}}">{{array[index]}}</text>
+    <text wx:else class="select">请选择</text>
+    <text class="iconfont iconiconfontjiantou5"></text>
+  </picker>
+</view>
+<textarea placeholder="请输入详细地址"></textarea>
+
+<view class="addImg flex-wrap">
+  <!-- <image class="imgItem" src="../../image/banner1.png" mode='aspectFill'/> -->
+  <view class="imgItem addItem">
+    <image src="../../image/addImg.png" />
+    <view>上传照片</view>
+  </view>
+</view>
+
+
+<view class="submit">提交</view>

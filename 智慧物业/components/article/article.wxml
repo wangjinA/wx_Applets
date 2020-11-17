@@ -1,0 +1,7 @@
+<navigator class="article bottom-line" url="">
+  <image src="{{item.img}}" />
+  <view class="article-info">
+    <view class="article-title text-overflow">{{item.title}}</view>
+    <view class="tag">{{item.tag}}</view>
+  </view>
+</navigator>

@@ -1,0 +1,12 @@
+.payNotice{
+ padding: 20rpx 30rpx; 
+}
+.title{
+  font-size: 34rpx;
+  color: #333;
+  margin-bottom: 10rpx;
+}
+.content{
+  font-size: 28rpx;
+  color: #696969;
+}

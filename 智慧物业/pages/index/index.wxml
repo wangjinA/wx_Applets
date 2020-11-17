@@ -1,0 +1,46 @@
+<view>
+  <swiper class="banner" indicator-dots="true"
+    indicator-color=""
+    indicator-active-color="#61A5FF"
+    circular="true"
+    autoplay="true" interval="3000" duration="400">
+    <block wx:for="{{imgUrls}}" wx:key="index">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" mode='aspectFill'/>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="notice">
+    <image src="../../image/tz.png" />
+    <swiper
+      circular="true"
+      vertical="true"
+      autoplay="true" interval="3000" duration="400">
+      <block wx:for="{{notice}}" wx:key="index">
+        <swiper-item>
+          <view class="textOne-overflow">{{item.content}}</view>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  
+  <view class="nav">
+    <navigator url="{{item.url}}" wx:for="{{navList}}" wx:key="{{index}}">
+      <view class="yuan">
+        <image src="{{item.icon}}"></image>
+      </view>
+      <view class="name">{{item.name}}</view>
+    </navigator>
+  </view>
+  <view wx:for="{{mallTitle}}" wx:key="{{index}}">
+    <view class="section-title">
+      <text>{{item.name}}</text>
+      <navigator url="../mallList/mallList?{{item.query}}" class="section-more">
+        <text>更多</text><text class="iconfont iconiconfontjiantou5"></text>
+      </navigator>
+    </view>
+  </view>
+  <view class="aticle">
+    <article wx:for="{{aticleList}}" wx:key="{{index}}" item="{{item}}"></article>
+  </view>
+</view>
